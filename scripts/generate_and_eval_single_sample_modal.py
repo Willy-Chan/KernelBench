@@ -104,7 +104,7 @@ image = (
                 "clang" # note i skip a step
                 )
     .pip_install_from_requirements(os.path.join(REPO_TOP_DIR, "requirements.txt"))
-    .run_commands("git clone https://github.com/HazyResearch/ThunderKittens.git /root/ThunderKittens")
+    .run_commands("git clone -b tk-v2 https://github.com/HazyResearch/ThunderKittens.git /root/ThunderKittens")
     .env({
         "THUNDERKITTENS_ROOT": "/root/ThunderKittens",
         "PYTHONPATH": "/root"
