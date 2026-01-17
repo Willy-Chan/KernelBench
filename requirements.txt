@@ -14,6 +14,11 @@ modal>=1.3.0
 # DSLs
 nvidia-cutlass-dsl
 tilelang
+<<<<<<< Updated upstream
+=======
+triton
+cuda-tile  # cuTile - requires CUDA Toolkit 13.1+
+>>>>>>> Stashed changes
 
 # helper
 tqdm>=4.67.1
